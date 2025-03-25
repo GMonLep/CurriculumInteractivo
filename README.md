@@ -7,6 +7,7 @@ Clase 4 - Tarea 50% Primera Nota. Creación de un Currículum Interactivo en HTM
 <button popovertarget>
 
 2) ¿Para qué sirven y cómo las aplicaste en tu currículum?
+3) 
 Label: el la etiqueta para un elemento en una interfaz de usuario. Te permite indicarle al usuario que tipo de dato le estas pidiendo al completar el formulario.
 
 Input: esta etiqueta especifica un campo donde el usuario puede ingresar datos, asociandole un ID que se puede consultar más tarde haciéndo más fácil el manejo de los datos ingresados.
