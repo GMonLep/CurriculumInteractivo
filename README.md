@@ -2,6 +2,7 @@
 Clase 4 - Tarea 50% Primera Nota. Creación de un Currículum Interactivo en HTML.
 
 # 1) ¿Qué etiquetas nuevas investigaste?
+```html
 <label>
 <input>
 <button popovertarget>
