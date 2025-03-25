@@ -1,8 +1,37 @@
 header {
-    display: flex;
-    align-items: center;
+    display: flex;            
+    align-items: center;       
+    justify-content: center;   
+    flex-direction: column;    
+    text-align: center;    
+}
+
+
+header img {
+    width: 149px;              
+    height: 155px;              
+    margin-bottom: 20px;      
+}
+
+h1{
+    margin: 0;              
 }
 
 section{
     text-align: center;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; 
+    text-align: center;  
+}
+
+ul, ol {
+    list-style-position: inside; 
+    padding-left: 0; 
+}
+

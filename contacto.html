@@ -13,10 +13,23 @@
 
 <!---debemos utilizar "form" para q el usuario pueda ingresar datos
 
-mietras que el atributo action se dedica a decirle a donde va a enviar esos datos cuando el formulario se enive-->
+mietras que el atributo action se dedica a decirle a donde va a enviar esos datos cuando el formulario se envie-->
 
-    <form action=""> 
+<!--- ya q no lo estamos mandando a ninguna base de datos uso el mailto para q me lo envie a ese mail jiji-->
+<!--- el method="post" es para q cuando los datos se envien no aparezcan en la url, protegiendo datos sensibles, mienstras q el enctype es para q los datos se manden como simple archivo de texto -->
+    <form action="mailto:gen.montero@duocuc.cl"  method="post" enctype="text/plain"> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" nombre="nombre" required><br><br>
 
+        <label for="correo">Correo Electrónico:</label>
+        <input type="text" id="correo" correo="correo" required><br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" id="mensaje" name="mensaje" required><br><br>
+
+        <button type="submit">Enviar</button><br><br>
+
+        <a href="index.html">Volver</a>
 
     </form>
 </body>
