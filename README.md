@@ -14,6 +14,7 @@ Input: esta etiqueta especifica un campo donde el usuario puede ingresar datos, 
 Button popovertarget: crea un botón que te permite mostrar/esconder un elemento en específico.
 
 4) Ejemplo de código en HTML donde las utilizaste.
+```html
 <label for="nombre">Nombre:</label> ---> Para especificar el nombre del campo vacío en el cual el usuario debe ingresar información.
 <input type="text" id="nombre" nombre="nombre" required><br><br> ---> Determinar que lo ingresado debe ser texto y que no puede ir vacío.
 <button popovertarget="info">APRETAME</button> ---> Para "esconder" la información y solo mostrarla cuando el boton 'APRETAME' fuera apretado(en este caso era un gif)
